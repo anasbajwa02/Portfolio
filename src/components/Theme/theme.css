@@ -1,0 +1,141 @@
+.theme-title{
+    /* color: #0bceaf; */
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.theme-title h2{
+    font-size: 28px;
+    font-weight: 600;
+}
+.themes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 100px ;
+}
+.vs-code,.night-owl{
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #24292E;
+    padding: 30px 20px 30px 20px;
+}
+.vs-container-on{
+    border: 3px solid #0bceaf;
+
+}
+.vs-container-off{
+    border: 2px solid #272A57;
+    background-color: #011627;
+
+}
+.nightowl-container-off{
+    border: 2px solid #334C61;
+
+    
+}
+.nightowl-container-on{
+    border: 2px solid #569CD6;
+    background-color: #011627;
+
+
+}
+.vs-code img,.night-owl img{
+    width: 80px;
+}
+.vs-code h2,.night-owl h2{
+    color: white;
+}
+.vs-code h4,.night-owl h4{
+    color: rgb(120, 124, 124);
+    font-size: 12px;
+}
+
+
+
+ /* theme change buttons */
+
+ /* vscode  */
+
+.vs-on{
+    background-color: #1A6B62;
+    color: #7c7f82;
+    /* width: 250px; */
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.vs-off{
+     background-color: #092e4c;
+    color: #569CD6;
+    /* width: 250px; */
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+/* night owl */
+
+.nightowl-on{
+      background-color: #234c6d;
+    color: #7c7f82;
+    /* width: 250px; */
+    font-size: 15px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.nightowl-off{
+      background-color: #24292E;
+    color: #0BCEAF;
+    /* width: 250px; */
+    font-size: 15px;
+    height: 40px;
+    border: 1px solid #0BCEAF;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.nightowl-off,.nightowl-on,.vs-off,.vs-on{
+    width: 80%;
+}
+
+
+/* media quries */
+
+@media screen and (max-width:1100px) {
+    .night-owl{
+        margin: 50px 0 0 0;
+    }
+    
+}
+
+
+@media screen and (max-width:500px) {
+
+    .vs-code,.night-owl{
+    width: 250px;
+ 
+}
+}
+/* @media screen and (max-width:400px) {
+
+    .vs-code,.night-owl{
+    width: 300px;
+ 
+}
+} */
